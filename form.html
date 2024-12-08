@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Student Application Form</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+
+
+        <div class="logo">
+            <img src="images/logo/logo1.jpg" class="img" id="logof" alt="logo">
+        </div>
+
+
+        <!--  <div class="menu-icon">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>-->
+
+
+        <!--<h2>New Student Application Form</h2>-->
+        <h2>Download Form</h2>
+        <form id="myForm" action="mailto:ofadatechnicalschool@gmail.com" method="post" enctype="text/plain">
+
+            <label for="name">NAME:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <!--  <label for="name">SURNAME:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="name1">FIRST NAME:</label>
+            <input type="text" id="name1" name="name" required>
+
+            <label for="name2">OTHER NAME:</label>
+            <input type="text" id="name2" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+
+
+
+
+
+
+            <div class="ui form">
+                <div class="inline fields">
+
+                    <label>Marital Status</label><br>
+                    <input type="radio" id="single" name="marital" value="single">
+                    <label for="single">Single</label><br>
+                    <input type="radio" id="Married" name="marital" value="Married">
+                    <label for="Married">Married</label><br>
+                    <input type="radio" id="Divorced" name="marital" value="Divorced">
+                    <label for="Divorced">Divorced</label><br>
+
+
+                </div>
+            </div>
+            <br>
+            <label for="origin">STATE OF ORIGIN</label>
+            <input type="text" id="origin" name="STATE OF ORIGIN" required>
+            <br>
+            <label for="LG">LOCAL GOVERNMENT</label>
+            <input type="text" id="LG" name="LOCAL GOVERNMENT" required>
+            <div class="ui form">
+                <div class="inline fields">
+                    <label>RELIGION</label>
+                    <div class="field">
+                        <div class="ui radio checkbox">
+                            <input type="radio" name="RELIGION">
+                            <label>CHRISTIAN</label>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="ui radio checkbox">
+                            <input type="radio" name="RELIGION">
+                            <label>MUSLIM</label>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="ui radio checkbox">
+                            <input type="radio" name="RELIGION">
+                            <label>OTHERS</label>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" required></textarea>
+
+            <label for="program">Program of Interest:</label>
+            <select id="program" name="program" required>
+                
+                <option value="">Select Program</option>
+                <option value="Bread & Pastries"><table class="School-Courses">
+                    <tbody>
+                
+                        <tr>
+                            <th>CODE: 001</th> 
+                            <th>...</th>
+                            <th>BREAD & PASTRIES</th>
+                            <th>...</th>
+                            <th>(2 weeks)</th>
+                            
+                        </tr>
+                            </tbody>  
+                        </table></option>
+
+                <option value="Solar Energy Craft"><table class="School-Courses">
+                    <tbody>
+                
+                        <tr>
+                            <th>CODE: 002</th> 
+                            <th>...</th>
+                            <th>SOLAR ENERGY CRAFT</th>
+                            <th>...</th>
+                            <th>(2 weeks)</th>
+                            
+                        </tr>
+                            </tbody>  
+                        </table></option>
+                <option value="DETERGENT & BAR SOAP"><table class="School-Courses">
+                    <tbody>
+                
+                        <tr>
+                            <th>CODE: 003</th> 
+                            <th>...</th>
+                            <th>DETERGENT & BAR SOAP</th>
+                            <th>...</th>
+                            <th>(2 weeks)</th>
+                            
+                        </tr>
+                            </tbody>  
+                        </table></option>
+                <option value="CCTV & DSTV INSTALLATION"><table class="School-Courses">
+                    <tbody>
+                
+                        <tr>
+                            <th>CODE: 004</th> 
+                            <th>...</th>
+                            <th>CCTV & DSTV INSTALLATION</th>
+                            <th>...</th>
+                            <th>(2 weeks)</th>
+                            
+                        </tr>
+                            </tbody>  
+                        </table></option>
+                <option value="DRIVING"><table class="School-Courses">
+                    <tbody>
+                
+                        <tr>
+                            <th>CODE: 005</th> 
+                            <th>...</th>
+                            <th>DRIVING</th>
+                            <th>...</th>
+                            <th>(2 weeks)</th>
+                            
+                        </tr>
+                            </tbody>  
+                        </table></option>
+                <option value="COOKERY "><table class="School-Courses">
+                    <tbody>
+                
+                        <tr>
+                            <th>CODE: 006</th> 
+                            <th>...</th>
+                            <th>COOKERY</th>
+                            <th>...</th>
+                            <th>(2 weeks)</th>
+                            
+                        </tr>
+                            </tbody>  
+                        </table></option>
+                <option value="COSMETOLOGY"><table class="School-Courses">
+                    <tbody>
+                
+                        <tr>
+                            <th>CODE: 007</th> 
+                            <th>...</th>
+                            <th>COSMETOLOGY</th>
+                            <th>...</th>
+                            <th>(2 weeks)</th>
+                            
+                        </tr>
+                            </tbody>  
+                        </table></option>
+                <option value="PHYSIOTHERAPY"><table class="School-Courses">
+                    <tbody>
+                
+                        <tr>
+                            <th>CODE: 008</th> 
+                            <th>...</th>
+                            <th>PHYSIOTHERAPY</th>
+                            <th>...</th>
+                            <th>(2 weeks)</th>
+                            
+                        </tr>
+                            </tbody>  
+                        </table></option>
+                <option value="EVENT PLANNING & DECORATION"><table class="School-Courses">
+                    <tbody>
+                
+                        <tr>
+                            <th>CODE: 009</th> 
+                            <th>...</th>
+                            <th>EVENT PLANNING & DECORATION</th>
+                            <th>...</th>
+                            <th>(2 weeks)</th>
+                            
+                        </tr>
+                            </tbody>  
+                        </table></option>
+                        <option value="MAKE-UP / GELE TYING"><table class="School-Courses">
+                            <tbody>
+                        
+                                <tr>
+                                    <th>CODE: 010</th> 
+                                    <th>...</th>
+                                    <th>MAKE-UP / GELE TYING</th>
+                                    <th>...</th>
+                                    <th>(2 weeks)</th>
+                                    
+                                </tr>
+                                    </tbody>  
+                                </table></option>
+               <option value="EVENT PLANNING & DECORATION">_____________________</option>
+               <option value="FASHION DESIGNING"><table class="School-Courses">
+                <tbody>
+            
+                    <tr>
+                        <th>CODE: 020</th> 
+                        <th>...</th>
+                        <th>FASHION DESIGNING</th>
+                        <th>...</th>
+                        <th>(3 Months)</th>
+                        
+                    </tr>
+                        </tbody>  
+                    </table></option>
+                <option value="VISUAL ART"><table class="School-Courses">
+                    <tbody>
+                
+                        <tr>
+                            <th>CODE: 021</th> 
+                            <th>...</th>
+                            <th>VISUAL ART</th>
+                            <th>...</th>
+                            <th>(3 Months)</th>
+                            
+                        </tr>
+                            </tbody>  
+                        </table></option>
+                <option value="POULTRY CRAFT & PIGERY "><table class="School-Courses">
+                    <tbody>
+                
+                        <tr>
+                            <th>CODE: 022</th> 
+                            <th>...</th>
+                            <th>POULTRY CRAFT & PIGERY </th>
+                            <th>...</th>
+                            <th>(3 Months)</th>
+                            
+                        </tr>
+                            </tbody>  
+                        </table></option>
+                <option value="BRANDING"><table class="School-Courses">
+                    <tbody>
+                
+                        <tr>
+                            <th>CODE: 023</th> 
+                            <th>...</th>
+                            <th>BRANDING</th>
+                            <th>...</th>
+                            <th>(3 Months)</th>
+                            
+                        </tr>
+                            </tbody>  
+                        </table></option>
+                <option value="BREAD & PASTRIES"><table class="School-Courses">
+                    <tbody>
+                
+                        <tr>
+                            <th>CODE: 024</th> 
+                            <th>...</th>
+                            <th>BREAD & PASTRIES</th>
+                            <th>...</th>
+                            <th>(3 Months)</th>
+                            
+                        </tr>
+                            </tbody>  
+                        </table></option>
+                <option value="SOLAR ENERGY CRAFT"><table class="School-Courses">
+                    <tbody>
+                
+                        <tr>
+                            <th>CODE: 025</th> 
+                            <th>...</th>
+                            <th>SOLAR ENERGY CRAFT</th>
+                            <th>...</th>
+                            <th>(3 Months)</th>
+                            
+                        </tr>
+                            </tbody>  
+                        </table></option>
+                <option value="DETERGENT & BAR SOAP"><table class="School-Courses">
+                    <tbody>
+                
+                        <tr>
+                            <th>CODE: 026</th> 
+                            <th>...</th>
+                            <th>DETERGENT & BAR SOAP</th>
+                            <th>...</th>
+                            <th>(3 Months)</th>
+                            
+                        </tr>
+                            </tbody>  
+                        </table></option>
+                <option value="CCTV & DSTV INSTALLATION"><table class="School-Courses">
+                    <tbody>
+                
+                        <tr>
+                            <th>CODE: 027</th> 
+                            <th>...</th>
+                            <th>CCTV & DSTV INSTALLATION</th>
+                            <th>...</th>
+                            <th>(3 Months)</th>
+                            
+                        </tr>
+                            </tbody>  
+                        </table></option>
+                <option value="DRIVING"><table class="School-Courses">
+                    <tbody>
+                
+                        <tr>
+                            <th>CODE: 028</th> 
+                            <th>...</th>
+                            <th>DRIVING</th>
+                            <th>...</th>
+                            <th>(3 Months)</th>
+                            
+                        </tr>
+                            </tbody>  
+                        </table></option>
+                <option value="COOKERY"><table class="School-Courses">
+                    <tbody>
+                
+                        <tr>
+                            <th>CODE: 029</th> 
+                            <th>...</th>
+                            <th>COOKERY</th>
+                            <th>...</th>
+                            <th>(3 Months)</th>
+                            
+                        </tr>
+                            </tbody>  
+                        </table></option>
+                <option value="COSMETOLOGY"><table class="School-Courses">
+                    <tbody>
+                
+                        <tr>
+                            <th>CODE: 030</th> 
+                            <th>...</th>
+                            <th>COSMETOLOGY</th>
+                            <th>...</th>
+                            <th>(3 Months)</th>
+                            
+                        </tr>
+                            </tbody>  
+                        </table></option>
+                <option value="PHYSIOTHERAPY"><table class="School-Courses">
+                    <tbody>
+                
+                        <tr>
+                            <th>CODE: 031</th> 
+                            <th>...</th>
+                            <th>PHYSIOTHERAPY</th>
+                            <th>...</th>
+                            <th>(3 Months)</th>
+                            
+                        </tr>
+                            </tbody>  
+                        </table></option>
+                <option value="EVENT PLANNING & DECORATION"><table class="School-Courses">
+                    <tbody>
+                
+                        <tr>
+                            <th>CODE: 032</th> 
+                            <th>...</th>
+                            <th>EVENT PLANNING & DECORATION</th>
+                            <th>...</th>
+                            <th>(3 Months)</th>
+                            
+                        </tr>
+                            </tbody>  
+                        </table></option>
+                <option value="PLUMBING"><table class="School-Courses">
+                    <tbody>
+                
+                        <tr>
+                            <th>CODE: 033</th> 
+                            <th>...</th>
+                            <th>PLUMBING</th>
+                            <th>...</th>
+                            <th>(3 Months)</th>
+                            
+                        </tr>
+                            </tbody>  
+                        </table></option>
+                <option value="PAINTING"><table class="School-Courses">
+                    <tbody>
+                
+                        <tr>
+                            <th>CODE: 034</th> 
+                            <th>...</th>
+                            <th>PAINTING</th>
+                            <th>...</th>
+                            <th>(3 Months)</th>
+                            
+                        </tr>
+                            </tbody>  
+                        </table></option>
+                        <option value="MAKE-UP / GELE TYING"><table class="School-Courses">
+                            <tbody>
+                        
+                                <tr>
+                                    <th>CODE: 035</th> 
+                                    <th>...</th>
+                                    <th>MAKE-UP / GELE TYING</th>
+                                    <th>...</th>
+                                    <th>(3 Months)</th>
+                                    
+                                </tr>
+                                    </tbody>  
+                                </table></option>
+                <option value="EVENT PLANNING & DECORATION">_____________________</option>
+                <option value="MECHANICAL ENGINEERING"> 
+                    <table class="School-Courses">
+                    <tbody>
+                
+                        <tr>
+                            <th>CODE: 050</th> 
+                            <th>...</th>
+                            <th>MECHANICAL ENGINEERING</th>
+                            <th>...</th>
+                            <th>NABTEB COURSE</th>
+                            <th>(3 years)</th>
+                            
+                        </tr>
+                            </tbody>  
+                        </table>
+                    </option>
+                <option value="BRICKLAYING & TILING">  <table class="School-Courses">
+                    <tbody>
+                
+                        <tr>
+                            <th>CODE: 051</th> 
+                            <th>...</th>
+                            <th>BRICKLAYING & TILING</th>
+                            <th>...</th>
+                            <th>NABTEB COURSE</th>
+                            <th>(3 years)</th>
+                            
+                        </tr>
+                            </tbody>  
+                        </table></option>
+                <option value="WOODWORKS & CARPENTRY">  <table class="School-Courses">
+                    <tbody>
+                
+                        <tr>
+                            <th>CODE: 052</th> 
+                            <th>...</th>
+                            <th>WOODWORKS & CARPENTRY </th>
+                            <th>...</th>
+                            <th>NABTEB COURSE</th>
+                            <th>(3 years)</th>
+                            
+                        </tr>
+                            </tbody>  
+                        </table></option>
+                <option value="ENTREPRENEURSHIP"><table class="School-Courses">
+                    <tbody>
+                
+                        <tr>
+                            <th>CODE: 053</th> 
+                            <th>...</th>
+                            <th>ENTREPRENEURSHIP </th>
+                            <th>...</th>
+                            <th>NABTEB COURSE</th>
+                            <th>(3 years)</th>
+                            
+                        </tr>
+                            </tbody>  
+                        </table></option>
+                <option value="MARKETING"><table class="School-Courses">
+                    <tbody>
+                
+                        <tr>
+                            <th>CODE: 054</th> 
+                            <th>...</th>
+                            <th>MARKETING</th>
+                            <th>...</th>
+                            <th>NABTEB COURSE</th>
+                            <th>(3 years)</th>
+                            
+                        </tr>
+                            </tbody>  
+                        </table></option>
+                <option value="INFORMATION & COMMUNICATION TECHNOLOGY"><table class="School-Courses">
+                    <tbody>
+                
+                        <tr>
+                            <th>CODE: 055</th> 
+                            <th>...</th>
+                            <th>INFORMATION & COMMUNICATION TECHNOLOGY</th>
+                            <th>...</th>
+                            <th>NABTEB COURSE</th>
+                            <th>(3 years)</th>
+                            
+                        </tr>
+                            </tbody>  
+                        </table></option>
+                <option value="ELECTRICAL & ELECTRONICS"><table class="School-Courses">
+                    <tbody>
+                
+                        <tr>
+                            <th>CODE: 056</th> 
+                            <th>...</th>
+                            <th>ELECTRICAL & ELECTRONICS</th>
+                            <th>...</th>
+                            <th>NABTEB COURSE</th>
+                            <th>(3 years)</th>
+                            
+                        </tr>
+                            </tbody>  
+                        </table></option>
+                <option value="FASHION DESIGNING"><table class="School-Courses">
+                    <tbody>
+                
+                        <tr>
+                            <th>CODE: 057</th> 
+                            <th>...</th>
+                            <th>FASHION DESIGNING</th>
+                            <th>...</th>
+                            <th>NABTEB COURSE</th>
+                            <th>(3 years)</th>
+                            
+                        </tr>
+                            </tbody>  
+                        </table></option>
+                <option value="VISUAL ART"><table class="School-Courses">
+                    <tbody>
+                
+                        <tr>
+                            <th>CODE: 058</th> 
+                            <th>...</th>
+                            <th>VISUAL ART</th>
+                            <th>...</th>
+                            <th>NABTEB COURSE</th>
+                            <th>(3 years)</th>
+                            
+                        </tr>
+                            </tbody>  
+                        </table></option>
+                <option value="BRANDING/GRAPHICS DESIGNING"><table class="School-Courses">
+                    <tbody>
+                
+                        <tr>
+                            <th>CODE: 059</th> 
+                            <th>...</th>
+                            <th>BRANDING/GRAPHICS DESIGNING</th>
+                            <th>...</th>
+                            <th>NABTEB/ADVANCE COURSE</th>
+                            <th>(3 years)</th>
+                            
+                        </tr>
+                            </tbody>  
+                        </table></option>
+                <option value="AIR CONDITIONING"><table class="School-Courses">
+                    <tbody>
+                
+                        <tr>
+                            <th>CODE: 060</th> 
+                            <th>...</th>
+                            <th>AIR CONDITIONING</th>
+                            <th>...</th>
+                            <th>NABTEB COURSE</th>
+                            <th>(3 years)</th>
+                            
+                        </tr>
+                            </tbody>  
+                        </table></option>
+                <option value="PAINTING"><table class="School-Courses">
+                    <tbody>
+                
+                        <tr>
+                            <th>CODE: 061</th> 
+                            <th>...</th>
+                            <th>PAINTING</th>
+                            <th>...</th>
+                            <th>NABTEB COURSE</th>
+                            <th>(3 years)</th>
+                            
+                        </tr>
+                            </tbody>  
+                        </table></option>
+                <option value="SOLAR ENERGY CRAFT"><table class="School-Courses">
+                    <tbody>
+                
+                        <tr>
+                            <th>CODE: 062</th> 
+                            <th>...</th>
+                            <th>SOLAR ENERGY CRAFT</th>
+                            <th>...</th>
+                            <th>NABTEB COURSE</th>
+                            <th>(3 years)</th>
+                            
+                        </tr>
+                            </tbody>  
+                        </table></option>
+                <option value="CCTV & DSTV INSTALLATION"><table class="School-Courses">
+                    <tbody>
+                
+                        <tr>
+                            <th>CODE: 063</th> 
+                            <th>...</th>
+                            <th>CCTV & DSTV INSTALLATION</th>
+                            <th>...</th>
+                            <th>NABTEB/ADVANCE COURSE</th>
+                            <th>(3 years)</th>
+                            
+                        </tr>
+                            </tbody>  
+                        </table></option>
+                <option value="COOKERY"><table class="School-Courses">
+                    <tbody>
+                
+                        <tr>
+                            <th>CODE: 064</th> 
+                            <th>...</th>
+                            <th>COOKERY</th>
+                            <th>...</th>
+                            <th>NABTEB/ADVANCE COURSE</th>
+                            <th>(3 years)</th>
+                            
+                        </tr>
+                            </tbody>  
+                        </table></option>
+                <option value="AUTO-MECHANIC"> <table class="School-Courses">
+                    <tbody>
+                
+                        <tr>
+                            <th>CODE: 065</th> 
+                            <th>...</th>
+                            <th>AUTO-MECHANIC</th>
+                            <th>...</th>
+                            <th>NABTEB COURSE</th>
+                            <th>(3 years)</th>
+                            
+                        </tr>
+                            </tbody>  
+                        </table></option>  -->
+            <!-- Add more options as needed 
+          <!--  </select>
+
+            <label for="gender">Gender:</label>
+
+
+
+
+            <div class="field">
+                <div class="ui radio checkbox">
+                    <input type="radio" id="female" name="gender" value="female" required>
+                    <label for="female">Female</label>
+                </div>
+            </div>
+            <div class="field">
+                <div class="ui radio checkbox">
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male">Male</label>
+                </div>
+            </div>
+      -->
+            <button download="form" type="button" onclick="downloadAndSubmit()">Download and Submit</button></a>
+            <!--   <button type="submit">Submit</button>-->
+            <!--    <button onclick="saveFormData()" download="form" class="apply" type="submit">    <a href="document/admission-form.pdf">Download application form </a></button>-->
+            <!--  <button type="button" onclick="downloadPDF()">Download as PDF</button> -->
+        </form>
+    </div>
+
+
+    <script>
+        function downloadAndSubmit() {
+            // File download
+            const link = document.createElement('a');
+            link.href = 'document/admission-form.pdf'; // Replace with your file URL
+            link.download = 'form.pdf'; // Replace with the desired file name
+            link.click();
+
+            // Form submission
+            document.getElementById('myForm').submit();
+        }
+
+
+        /*   async function downloadPDF() {
+                                                                                                                                                                                                                                                              // Import the jsPDF library
+                                                                                                                                                                                                                                                              const {
+                                                                                                                                                                                                                                                                  jsPDF
+                                                                                                                                                                                                                                                              } = window.jspdf;
+
+                                                                                                                                                                                                                                                              // Create a new jsPDF instance
+                                                                                                                                                                                                                                                              const doc = new jsPDF();
+
+                                                                                                                                                                                                                                                              // Get form data
+                                                                                                                                                                                                                                                              const name = document.getElementById('name').value;
+                                                                                                                                                                                                                                                              const name1 = document.getElementById('name1').value;
+                                                                                                                                                                                                                                                              const name2 = document.getElementById('name2').value;
+                                                                                                                                                                                                                                                              const email = document.getElementById('email').value;
+                                                                                                                                                                                                                                                              const dobInput = document.getElementById('dob').value;
+                                                                                                                                                                                                                                                              const marital = form.marital.value;
+
+
+
+                                                                                                                                                                                                                                                              // Add form data to the PDF
+
+                                                                                                                                                                                                                                                              doc.text('Surname: ' + name, 10, 10);
+                                                                                                                                                                                                                                                              doc.text('First Name: ' + name1, 10, 20);
+                                                                                                                                                                                                                                                              doc.text('Last Name: ' + name2, 10, 30);
+                                                                                                                                                                                                                                                              doc.text('Email: ' + email, 10, 40);
+                                                                                                                                                                                                                                                              doc.text(10, 50, 'Date of Birth: ' + dobInput);
+                                                                                                                                                                                                                                                              doc.text(`marital_status: ${marital}`, 10, 60);
+
+                                                                                                                                                                                                                                                              // Save the PDF
+                                                                                                                                                                                                                                                              doc.save('form.pdf');
+                                                                                                                                                                                                                                                          }*/
+    </script>
+
+
+
+
+</body>
+
+</html>
